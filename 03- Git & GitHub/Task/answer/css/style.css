@@ -1,0 +1,88 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+    overflow-x: hidden;
+}
+nav .navbar-collapse .form-inline button,
+.section1 .test button{
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(40deg, #31d069, #2cb9ca);
+    color: #fff;
+}
+
+.section1{
+    height: 100vh;
+}
+
+.section1 img{
+    height: 100vh;
+}
+
+.section1 .pos{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.section1 .test h1{
+    font-size: 50px;
+    color: hsl(233, 26%, 24%);
+}
+
+.section1 .test p{
+    font-size: 18;
+    color: hsl(233, 8%, 62%);
+}
+
+
+.section2{
+background-color: hsl(0, 0%, 98%);
+}
+
+.section2 .text h2,
+.section2 .item h3,
+.section3 h2{
+    color: hsl(233, 26%, 24%);
+}
+
+.section2 .text p,
+.section2 .item p,
+.section3 .item h6,
+.section3 .item p,
+footer p{
+    color: hsl(233, 8%, 62%);
+}
+
+.section3 .item,
+.section3 .item img{
+    border-radius: 10px;
+}
+
+footer{
+    background-color: hsl(233, 26%, 24%);
+    /* height: 115px; */
+}
+footer img{
+    background-color: #fff;
+}
+
+footer .request{
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(40deg, #31d069, #2cb9ca);
+    color: #fff;
+}
+
+footer .item .images img{
+    background-color: hsl(233, 26%, 24%);;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: none;
+}
